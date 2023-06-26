@@ -18,8 +18,6 @@ class SQLParser():
         return pretty_string
 
     # вторым - отформатируем строку с помощью sqlparse.format и запишем получившуюся строку в новую переменную
-
-    
     # print(var) выведет pretty format по умолчанию созданный в sqlparse
     # далее будем работать с обработанной строкой:
     # заменять отступы, 1=1 rule, IN statement и прочие правила из sql guide
